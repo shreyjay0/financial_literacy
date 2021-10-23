@@ -1,6 +1,6 @@
 import React from "react";
+import Search from "../components/Search";
 import "../style/IndexPage.css";
-
 
 const IndexPage = () => {
   return (
@@ -9,14 +9,7 @@ const IndexPage = () => {
         <h3>Learn how you can be</h3>
         <h1>Financially Independent</h1>
       </div>
-      <div className="search-box">
-        <input
-            type="text"
-            id="searchBar"
-            placeholder="Search"
-        />
-        <button type="submit">Search</button>
-      </div>
+      <Search sx={{ margin: "0 auto" }} />
     </div>
   );
 };
