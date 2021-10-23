@@ -13,13 +13,9 @@ const IndexPage = () => {
       </div>
       <div class="wrap">
         <div className="search" >
-          <input
-            className = "searchTerm"
-            type = "text"
-            placeholder = "Search" />
-          <button className="searchButton" type="submit"><span className="icon"></span></button>
-
+          <input className = "searchTerm" type = "text"/>
         </div>
+        <button className="searchButton" type="submit">Search!</button>
       </div>
 
       <div className="cards">
