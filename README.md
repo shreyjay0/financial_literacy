@@ -11,6 +11,10 @@ pip install requirements.txt
 cd frontend
 npm install
 ```
+Set up database
+```sh
+python manage.py migrate
+```
 Run development server
 ```sh
 python manage.py runserver
