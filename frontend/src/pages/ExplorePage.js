@@ -27,7 +27,7 @@ const ExplorePage = () => {
         variant="h3"
         sx={{ fontWeight: "bolder", textAlign: "left", margin: "50px" }}
       >
-        Quick Lessons
+        Quick Guide
       </Typography>
       {lesson_arr.map((two_lesson) => (
         <Stack direction="row" sx={{ justifyContent: "center" }}>
